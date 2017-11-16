@@ -1,130 +1,218 @@
-<!--Header + Titre de la page-->
-<div class="nav_background">
-    <img src="img/partenaires/bandeau-partenaire-1400x300.jpg" alt="">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/partenaires.css">
+    <link rel="stylesheet" href="assets/style/slider.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+
+    <div data-include="header"></div>
+
+    <!--Header + Titre de la page-->
+    <div class="nav_background">
+        <img src="assets/img/partenaires/bandeau-partenaire-1400x300.jpg" alt=Image être partenaires>
+        <div class="conteneur">
+            <h1>ÊTRE PARTENAIRE</h1>
+        </div>
+    </div>
+    <!---->
+
+    <div data-include="recherche"></div>
+
+    <!--Scrollback button-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button>
+    <!---->
+
+
     <div class="conteneur">
-        <h1>ÊTRE PARTENAIRE</h1>
-    </div>
-</div>
-<!---->
 
 
-<div class="conteneur partenaires">
+        <h2>POURQUOI DEVENIR PARTENAIRE ?</h2>
 
-    <h2>POURQUOI DEVENIR PARTENAIRE ?</h2>
-
-    <div class="picto">
-        <img src="img/partenaires/picto-world.png" alt="picto-word" />
-        <br />
-        <span>En devenant partenaire, vous vous associez à titre gracieux à un programme jeunesse reconnu (la EYCA est soutenue par le Conseil de l’Europe, Erasmus+…) qui compte déjà 6 millions de jeunes.</span>
-    </div>
-
-    <div class="picto">
-        <img src="img/partenaires/picto-mic.png" class="picto" alt="picto-mic" />
-        <br />
-        <span>Vous bénéficierez d’une visibilité personnalisée au sein de notre programme : sur notre site, nos réseaux sociaux, notre application mobile, nos newsletters…</span>
-    </div>
-
-    <div class="picto">
-        <img src="img/partenaires/picto-card.png" class="picto" alt="picto-card" />
-        <br />
-        <span>Il est possible de créer une Carte Jeunes co-brandée pour proposer encore plus d’avantages à vos clients.</span>
-    </div>
-
-    <div class="picto">
-        <img src="img/partenaires/picto-store.png" class="picto" alt="picto-store" />
-        <br />
-        <span>Nous pourrons collaborer sur des opérations promotionnelles exclusives</span>
-    </div>
-
-    <h2>ILS NOUS FONT CONFIANCE</h2>
-
-    <!--SLIDER TEMOIGNAGE-->
-
-    <div class="slider">
-        <figure>
-            <img src="img/partenaires/temoignage1.png" alt="Témoignage">
-        </figure>
-           <figure> 
-            <img src="img/partenaires/temoignage2.png" alt="Témoignage">
-           </figure>
-    </div>
-
-    <h2>VOUS AUSSI PARTICIPEZ À L’AVENTURE CARTE JEUNES EUROPÉENNE ET EXPLOREZ DE NOUVEAUX TERRITOIRES DE MARQUE !</h2>
-
-    <p>A travers notre programme, nous avons à cœur de sélectionner des partenaires qui partagent nos valeurs et cherchent à proposer de nouvelles expériences aux jeunes en France et à travers l’Europe, mais aussi près de chez eux.</p>
-
-    <p>Choisir de s’associer avec la Carte Jeunes Européenne, c’est bénéficier de près de 30 ans d’expertise en matière de jeunesse à l’échelle européenne, d’un réseau de 6 millions de jeunes et faire le choix d’une organisation reconnue par les Institutions européennes depuis sa création.</p>
-
-    <p>Soutenir le lancement du programme en France est une opportunité idéale pour toutes les marques, établissements, organisations, villes, institutions… qui cherchent à s’adresser aux jeunes. En donnant vie au programme en France, notre objectif est d’aller bien au-delà d’une carte de réduction commerciale en créant un véritable programme pour la jeunesse. Nous souhaitons faire naître chez les jeunes l’envie de bouger, de voyager et de découvrir d’autres manières d’apprendre et de grandir en France et à l’étranger.</p>
-
-    <p><span>Nous proposons également à nos partenaires d’être mis en relation les uns avec les autres, c’est aussi ça la famille CarteJ !</span>
-    </p>
-
-    <h2>VOUS CROYEZ EN NOTRE PROJET : REJOIGNEZ-NOUS DÈS MAINTENANT</h2>
-
-    <form action="#" method="post">
-        <div class="blocG">
-
-            <div class="blocNom">
-                <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Nom*">
-            </div>
-
-            <div class="blocPrenom">
-                <input type="text" name="your-surname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Prénom*">
-            </div>
-
-            <input type="text" name="societe" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Société*">
-
-            <input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Adresse e-mail*">
-
-            <input type="tel" name="telephone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" placeholder="Téléphone">
+        <div class="picto">
+            <img src="assets/img/partenaires/picto-world.png" alt="picto-word" />
+            <br />
+            <span>En devenant partenaire, vous vous associez à titre gracieux à un programme jeunesse reconnu (la EYCA est soutenue par le Conseil de l’Europe, Erasmus+…) qui compte déjà 6 millions de jeunes.</span>
         </div>
 
-        <div class="blocD">
-            <textarea name="your-message" cols="40" rows="11" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Message*"></textarea>
-
-            <button class="button" type="submit">Envoyer</button>
+        <div class="picto">
+            <img src="assets/img/partenaires/picto-mic.png" class="picto" alt="picto-mic" />
+            <br />
+            <span>Vous bénéficierez d’une visibilité personnalisée au sein de notre programme : sur notre site, nos réseaux sociaux, notre application mobile, nos newsletters…</span>
         </div>
-    </form>
+
+        <div class="picto">
+            <img src="assets/img/partenaires/picto-card.png" class="picto" alt="picto-card" />
+            <br />
+            <span>Il est possible de créer une Carte Jeunes co-brandée pour proposer encore plus d’avantages à vos clients.</span>
+        </div>
+
+        <div class="picto">
+            <img src="assets/img/partenaires/picto-store.png" class="picto" alt="picto-store" />
+            <br />
+            <span>Nous pourrons collaborer sur des opérations promotionnelles exclusives</span>
+        </div>
+
+        <h2>ILS NOUS FONT CONFIANCE</h2>
+
+        <!--SLIDER TEMOIGNAGE-->
+
+        <div class="slider">
+
+            <div class="slider-element slider-element-1 slider-element-actuel" alt="Témoignage" id="slider-element-1" style="background-image: url(assets/img/partenaires/temoignage1.png);"></div>
+
+            <div class="slider-element slider-element-2 slider-element-disabled" alt="Témoignage" id="slider-element-2" style="background-image: url(assets/img/partenaires/temoignage2.png)"></div>
+
+            <div class="fleche-middle slide-left">
+                <i class="fa fa-chevron-left"></i>
+            </div>
+
+            <div class="bullets-centre">
+                <ul class="bullets">
+                    <li data-bullet="1" class="bullet bullet-active"></li>
+                    <li data-bullet="2" class="bullet"></li>
+                </ul>
+            </div>
+
+            <div class="fleche-middle slide-right">
+                <i class="fa fa-chevron-right"></i>
+            </div>
+
+        </div>
 
 
-    <h2>NOTRE ASSOCIATION</h2>
+        <h2>VOUS AUSSI PARTICIPEZ À L’AVENTURE CARTE JEUNES EUROPÉENNE ET EXPLOREZ DE NOUVEAUX TERRITOIRES DE MARQUE !</h2>
 
-    <p class="sub-title">L’Association Innovation Jeunesse Découverte – European Youth Card France.</p>
+        <p>A travers notre programme, nous avons à cœur de sélectionner des partenaires qui partagent nos valeurs et cherchent à proposer de nouvelles expériences aux jeunes en France et à travers l’Europe, mais aussi près de chez eux.</p><br>
 
-    <div class="association">
-        <aside>
-            <img src="img/partenaires/partenaire-visuel.jpg" alt="partenaire">
-        </aside>
-        <article>
-            <p>L’Association Innovation Jeunesse Découverte – European Youth Card France (Association IJD France) est en charge du développement en France de la Carte Jeunes Européenne. Elle a également pour mission de mettre en place des projets innovants liés à la mobilité de la jeunesse en France et en Europe.</p>
-            <p>L’objectif du programme est de faciliter l’accès pour les jeunes à la culture, le sport, les loisirs et les transports, tout en favorisant le partage d’expériences, la participation et la mobilité en Europe.</p>
+        <p>Choisir de s’associer avec la Carte Jeunes Européenne, c’est bénéficier de près de 30 ans d’expertise en matière de jeunesse à l’échelle européenne, d’un réseau de 6 millions de jeunes et faire le choix d’une organisation reconnue par les Institutions européennes depuis sa création.</p><br>
 
-            <a class="button" title="Qui sommes-nous?" href="/qui-sommes-nous">Découvrir qui Nous sommes</a>
-        </article>
+        <p>Soutenir le lancement du programme en France est une opportunité idéale pour toutes les marques, établissements, organisations, villes, institutions… qui cherchent à s’adresser aux jeunes. En donnant vie au programme en France, notre objectif est d’aller bien au-delà d’une carte de réduction commerciale en créant un véritable programme pour la jeunesse. Nous souhaitons faire naître chez les jeunes l’envie de bouger, de voyager et de découvrir d’autres manières d’apprendre et de grandir en France et à l’étranger.</p><br>
+
+        <p class="sub-title bold">Nous proposons également à nos partenaires d’être mis en relation les uns avec les autres, c’est aussi ça la famille CarteJ !
+        </p>
+
+        <h2>VOUS CROYEZ EN NOTRE PROJET : REJOIGNEZ-NOUS DÈS MAINTENANT</h2>
+
+        <form action="#" method="post">
+            <div class="blocG">
+
+                <div class="blocNom">
+                    <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Nom*">
+                </div>
+
+                <div class="blocPrenom">
+                    <input type="text" name="your-surname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Prénom*">
+                </div>
+
+                <input type="text" name="societe" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Société*">
+
+                <input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Adresse e-mail*">
+
+                <input type="tel" name="telephone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" placeholder="Téléphone">
+            </div>
+
+            <div class="blocD">
+                <textarea name="your-message" cols="40" rows="11" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Message*"></textarea>
+
+                <button class="bouton_blanc" type="submit">Envoyer</button>
+            </div>
+        </form>
+
+
+        <h2>NOTRE ASSOCIATION</h2>
+
+        <p class="sub-title bold">L’Association Innovation Jeunesse Découverte – European Youth Card France.</p>
+
+        <div class="association">
+            <aside>
+                <img src="assets/img/partenaires/partenaire-visuel.jpg" alt="partenaire">
+            </aside>
+            <article>
+                <p>L’Association Innovation Jeunesse Découverte – European Youth Card France (Association IJD France) est en charge du développement en France de la Carte Jeunes Européenne. Elle a également pour mission de mettre en place des projets innovants liés à la mobilité de la jeunesse en France et en Europe.</p>
+                <p>L’objectif du programme est de faciliter l’accès pour les jeunes à la culture, le sport, les loisirs et les transports, tout en favorisant le partage d’expériences, la participation et la mobilité en Europe.</p>
+
+                <a class="bouton_blanc" title="Qui sommes-nous?" href="/qui-sommes-nous">Découvrir qui Nous sommes</a>
+            </article>
+        </div>
+
+        <h2>NOS PARTENAIRES INSTITUTIONNELS ET ASSOCIATIFS</h2>
+
+        <!-- Slider partenaires -->
+        <div id="slider">
+            <a href="#" class="control_next">></a>
+            <a href="#" class="control_prev"><</a>
+                    <ul>
+                        <li style="background-image: url(assets/img/partenaires/ActiCity_logo2-1024x505.jpg);"><a href="http://www.acticity.com/" target="_blank">Acticity</a></li>
+                        
+                        <li style="background-image: url(assets/img/partenaires/CIDJ-logo-InfoJeunesse-1024x642.png);"><a href="http://www.cidj.com/" target="_blank">CIDJ</a></li>
+                        
+                        <li style="background-image: url(assets/img/partenaires/conseil-europeen.png);"><a href="https://www.coe.int/fr/" target="_blank">Conseil de l'Europe</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/creps-idf-ministere2-2-1024x642.png);"><a href="http://www.creps-idf.fr/" target="_blank">CREPS IDF</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/erasmus.png);"><a href="http://www.ef.fr/erasmus/" target="_blank">Erasmus</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/eryica.png);"><a href="http://eryica.org/" target="_blank">Eryica</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/eurodesk.png);"><a href="https://eurodesk.eu/" target="_blank">Eurodesk</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/logo-gris.png);"><a href="http://capmagellan.com/" target="_blank">Cap Magellan</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/logo-noir-1.png);"><a href="http://www.mfr-nouvelle-aquitaine.fr/" target="_blank">MFR-Nouvelle-Aquitaine</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/logo-noir-1024x500.png);"><a href="http://www.paris-europe.eu/" target="_blank">Maison de l'Europe à Paris</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/logo-Tac-Tic.png);"><a href="http://tac-tic-animation.org/" target="_blank">Tac Tic Animation</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/logo.png);"><a href="http://www.folschviller.fr/" target="_blank">Commune de Folschviller</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/Logo_CIJ.png);"><a href="http://cij.valdoise.fr/" target="_blank">CIJ du Val d'Oise</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/LOGO_creps_strasbourg_site-1024x642.png);"><a href="http://www.creps-strasbourg.sports.gouv.fr/" target="_blank">CREPS Strasbourg</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/Logo_FFJ_Vecto_NB-page-001-1024x536.jpg);"><a href="http://forumfrancaisjeunesse.fr/" target="_blank">Forum Français de la Jeunesse</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/Strasbourg.eu-Signature-Verte.jpg);"><a href="http://www.strasbourg.eu/" target="_blank">Strasbourg</a></li>
+
+                        <li style="background-image: url(assets/img/partenaires/youth-forum.png);"><a href="http://www.youthforum.org/fr/" target="_blank">European Youth Forum</a></li>
+                        
+                        <li style="background-image: url(assets/img/partenaires/lofo-noir-3.png);"><a href="https://www.parisinfo.com/" target="_blank">Office du Tourisme de Paris</a></li>
+
+                    </ul>
+        </div>
+
+
     </div>
 
-    <h2>NOS PARTENAIRES INSTITUTIONNELS ET ASSOCIATIFS</h2>
+    <div class="clear"></div>
 
-    <!-- Slider partenaires -->
-    <div class="slider-partenaires">
-        <ul>
-            <li><img src="img/partenaires/ActiCity_logo2-1024x505.jpg" alt="Logo ActiCity"></li>
-            <li><img src="img/partenaires/CIDJ-logo-InfoJeunesse-1024x642.png" alt=""></li>
-            <li><img src="img/partenaires/conseil-europeen.png" alt=""></li>
-            <li><img src="img/partenaires/creps-idf-ministere2-2-1024x642.png" alt=""></li>
-            <li><img src="img/partenaires/erasmus.png" alt=""></li>
-            <li><img src="img/partenaires/eryica.png" alt=""></li>
-            <li><img src="img/partenaires/eurodesk.png" alt=""></li>
-            <li><img src="img/partenaires/logo-gris.png" alt=""></li>
-            <li><img src="img/partenaires/logo-noir-1.png" alt=""></li>
-            <li><img src="img/partenaires/logo-noir-1024x500.png" alt=""></li>
-            <li><img src="img/partenaires/logo-Tac-Tic.png" alt=""></li>
-            <li><img src="img/partenaires/logo.png" alt=""></li>
-            <li><img src="img/partenaires/Logo_CIJ.png" alt=""></li>
-            <li><img src="img/partenaires/LOGO_creps_strasbourg_site-1024x642.png" alt=""></li>
-            <li><img src="img/partenaires/Logo_FFJ_Vecto_NB-page-001-1024x536.jpg" alt=""></li>
-            <li><img src="img/partenaires/Strasbourg.eu-Signature-Verte.jpg" alt=""></li>
-            <li><img src="img/partenaires/youth-forum.png" alt=""></li>
-        </ul>
-    </div>
+    <div data-include="footer"></div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.js"></script>
+    <script>
+        $(function() {
+            let includes = $('[data-include]');
+            jQuery.each(includes, function() {
+                let file = 'include/' + $(this).data('include') + '.html';
+                let div = this;
+                $.get(file, function(data) {
+                    $(div).replaceWith(data);
+                });
+            });
+        });
+
+    </script>
+    <script src="assets/script/script.js"></script>
+    <script src="assets/script/scrollback.js"></script>
+</body>
+
+</html>

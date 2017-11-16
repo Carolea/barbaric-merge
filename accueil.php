@@ -30,7 +30,7 @@
     
     <div class="slider">
    
-    <div class="slider-element slider-element-1 slider-element-actuel" id="slider-element-1" style="background-image: url(assets/img/accueil/jeu.jpg);"></div>
+<!--    <div class="slider-element slider-element-1 slider-element-actuel" id="slider-element-1" style="background-image: url(assets/img/accueil/jeu.jpg);"></div>
     
     <div class="slider-element slider-element-2 slider-element-disabled" id="slider-element-2" style="background-image: url(assets/img/accueil/vignette10.png)"></div>
     
@@ -49,7 +49,7 @@
     
     <div class="fleche-middle slide-right">
         <i class="fa fa-chevron-right"></i>
-    </div>
+    </div>-->
     
 </div>
 
