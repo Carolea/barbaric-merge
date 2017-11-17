@@ -24,6 +24,7 @@ figure {
 }
 
 /*Slider Twitter*/
+
 .api-twitter {
     padding: 40px 0;
     background: url(../img/accueil/bandeau-accueil-1024x219.jpg) center center no-repeat;
@@ -40,6 +41,12 @@ figure {
     line-height: 32px;
     color: #252c61;
     width: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.api{
+    padding-left: 2em;
     display: inline-block;
 }
 
@@ -70,8 +77,9 @@ figure {
 }
 
 /*@media queries*/
+
 @media screen and (max-width: 641px) {
-    .picto{
+    .picto {
         width: calc(90% / 2);
     }
 }
