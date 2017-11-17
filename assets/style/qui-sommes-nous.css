@@ -1,0 +1,114 @@
+/*Bloc Assoc*/
+
+.association {
+    width: 100%;
+    display: inline-flex;
+}
+
+aside {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+article {
+    padding-left: 20px;
+    width: 50%;
+}
+
+.trophe {
+    padding-top: 2em;
+}
+
+/*Bloc présentation team*/
+
+.team img {
+    background: no-repeat 0px 0px;
+    overflow: hidden;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    padding-bottom: 2em;
+    width: 100%;
+    height: auto;
+}
+
+.member {
+    padding-left: 2em;
+}
+
+.member span {
+    font-size: 20px;
+}
+
+.team {
+    display: flex;
+    text-align: center;
+}
+
+.team p {
+    font-size: 12px;
+}
+
+/*Bloc EYCA*/
+
+.laeyca {
+    display: flex;
+}
+
+.laeyca article {
+    padding-top: 5em;
+    padding-right: 2em;
+}
+
+.eycapicto {
+    padding-left: 2em;
+    padding-top: 2em;
+    display: flex;
+    text-align: center;
+
+}
+
+.picto1 {
+    width: calc(100% / 3);
+
+}
+
+.sub-picto {
+    color: #fdc500;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.eycamembers {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+figure {
+  border: 10px solid #DADCDB;
+  margin: 10px 10px;
+  padding: 0;
+}
+
+figure.eycalogo {
+  display: inline-block;
+  position: relative;
+}
+
+figure img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+figcaption {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font: 400 18px/26px Verdana, sans-serif;
+  padding: .2em 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}

@@ -1,0 +1,166 @@
+/* Partenaires Picto */
+
+partenaires p {
+    margin-bottom: 1.6em;
+    font-size: 14px;
+    color: #333;
+}
+
+.picto {
+    display: inline-block;
+    width: calc(90% / 4);
+    padding-left: 20px;
+    vertical-align: text-top;
+    text-align: center;
+}
+
+.picto img {
+    width: 60px;
+    height: auto;
+}
+
+/*Slider Témoignage*/
+
+@media screen and (min-width: 961px) {
+    .slider {
+        height: 400px;
+        top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+}
+
+/* Formulaire */
+
+form {
+    display: inline-flex;
+}
+
+.blocG {
+    width: 50%;
+}
+
+.blocD {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.blocNom,
+.blocPrenom {
+    width: 49%;
+    display: inline-block;
+}
+
+input {
+    padding: 15px 15px;
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    transition: all 0.3s ease;
+    color: #333;
+    border: 1px solid #dedede;
+    border-radius: 28px;
+    margin: 11px 0;
+    font-size: 14px;
+}
+
+textarea {
+    padding: 15px 15px;
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    transition: all 0.3s ease;
+    color: #333;
+    border: 1px solid #dedede;
+    border-radius: 28px;
+    margin: 11px 0;
+    font-size: 14px;
+}
+
+/*Bloc Assoc*/
+
+.association {
+    width: 100%;
+    display: inline-flex;
+    padding-top: 2em;
+}
+
+aside {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+article {
+    padding-left: 20px;
+    width: 50%;
+}
+
+
+/* Slider Partenaires */
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    border-radius: 4px;
+}
+
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none;
+}
+
+#slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 300px;
+    background: #ccc;
+    text-align: center;
+    /*line-height: 300px;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+a.control_prev,
+a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+a.control_prev:hover,
+a.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+    border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+    position: relative;
+    margin: 10px auto;
+    width: 160px;
+    font-size: 18px;
+}
